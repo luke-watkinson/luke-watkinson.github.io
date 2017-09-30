@@ -10,12 +10,37 @@
 	font-style: normal;
 }
 
-/* ---------- General ---------- */
+/* ---------- Background ---------- */
+
+@media print, screen and (min-width: 20em) {
 
 body {
-	background: url(../img/lwpd-bg.png) top right no-repeat;
+	background: url(../img/lwpd-sm-bg.png) top right no-repeat fixed;
 	background-color: #000;
+	}
+
 }
+
+@media print, screen and (min-width: 40em) {
+
+body {
+	background: url(../img/lwpd-med-bg.png) top right no-repeat fixed;
+	background-color: #000;
+	}
+
+}
+
+@media print, screen and (min-width: 64em) {
+
+body {
+	background: url(../img/lwpd-bg.png) top right no-repeat fixed;
+	background-color: #000;
+	}
+
+}
+
+
+/* ---------- General ---------- */	
 
 a {
 	color: #FFF;
@@ -129,10 +154,10 @@ h3 {
 
 p {
 	font-family: 'OpenSans';
-	font-size: 14px;
+	font-size: 16px;
 	color: #CCC;
 	letter-spacing: 0;
-	line-height: 24px;
+	line-height: 26px;
 }
 
 strong,b {
@@ -176,21 +201,21 @@ strong,b {
 
 @media print, screen and (min-width: 20em) {
 	.main {
-		margin: 30px;
+		margin: 40px;
 		padding-bottom: 50px;
 	}
 }
 
 @media print, screen and (min-width: 40em) {
 	.main {
-		margin: 30px;
+		margin: 40px;
 		padding-bottom: 100px;
 	}
 }
 
 @media print, screen and (min-width: 64em) {
 	.main {
-		padding-bottom: 130px;
+		padding-bottom: 100px;
 	}
 }
 
