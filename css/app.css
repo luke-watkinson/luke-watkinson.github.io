@@ -10,6 +10,27 @@
 	font-style: normal;
 }
 
+
+/* ---------- General ---------- */	
+
+a {
+	color: #FFF;
+}
+
+a:active,
+a:hover {
+	color: #FDBC2C;
+	outline-width: 0; }
+
+.graphic-link:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.paragraph-padding {
+	padding-left: 0px;
+}
+
 /* ---------- Background ---------- */
 
 @media print, screen and (min-width: 20em) {
@@ -37,27 +58,6 @@ body {
 	background-color: #000;
 	}
 
-}
-
-
-/* ---------- General ---------- */	
-
-a {
-	color: #FFF;
-}
-
-a:active,
-a:hover {
-	color: #FDBC2C;
-	outline-width: 0; }
-
-.graphic-link:hover {
-    opacity: 0.8;
-    filter: alpha(opacity=80); /* For IE8 and earlier */
-}
-
-.paragraph-padding {
-	padding-left: 0px;
 }
 
 /* ---------- H1 ---------- */	
